@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "name": "nbhx_skills_market",
+  "description": "NBHX Skills Market - 专业技能集合市场",
+  "plugins": [
+    {
+      "name": "text-analysis",
+      "description": "文本分析工具包",
+      "source": "./plugins/text-analysis",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "NBHX Team"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "content-generator",
+      "description": "内容生成套件",
+      "source": "./plugins/content-generator",
+      "version": "1.0.0",
+      "category": "productivity",
+      "author": {
+        "name": "NBHX Team"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "data-transform",
+      "description": "数据转换工具",
+      "source": "./plugins/data-transform",
+      "version": "1.0.0",
+      "category": "utility",
+      "author": {
+        "name": "NBHX Team"
+      },
+      "license": "MIT"
+    }
+  ]
+}
