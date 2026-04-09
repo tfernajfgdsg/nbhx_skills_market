@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "nbhx_skills_market",
-  "description": "NBHX Skills Market - 专业技能集合市场",
+  "description": "NBHX Skills Market - 专业技能插件市场",
   "plugins": [
     {
       "name": "text-analysis",
@@ -31,6 +31,17 @@
       "source": "./plugins/data-transform",
       "version": "1.0.0",
       "category": "utility",
+      "author": {
+        "name": "NBHX Team"
+      },
+      "license": "MIT"
+    },
+    {
+      "name": "voyah-order-export",
+      "description": "岚图供应协同平台客户点单预告导出工具",
+      "source": "./plugins/voyah-order-export",
+      "version": "1.0.0",
+      "category": "automation",
       "author": {
         "name": "NBHX Team"
       },

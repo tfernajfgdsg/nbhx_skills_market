@@ -1,0 +1,16 @@
+{
+  "name": "voyah-order-export",
+  "version": "1.0.0",
+  "description": "岚图客户点单需求导出工具 - 自动登录并导出周滚动预告和日消耗预告数据",
+  "main": "scripts/export_voyah_orders.js",
+  "scripts": {
+    "export": "node scripts/export_voyah_orders.js",
+    "install-deps": "npm install && npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.59.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
